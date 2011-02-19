@@ -1,3 +1,5 @@
+Updated to work with Rails 3 changes to block helpers.
+
 Complex Form Examples - 2 level nesting
 ----------------------------------------
 

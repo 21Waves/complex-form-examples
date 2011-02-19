@@ -4,9 +4,9 @@
 
 <% form_for @project do |project_form| -%>
 
-  <% content_for :jstemplates do -%>
-  <%= "var task='#{generate_template(project_form, :tasks)}'" %>
-  <%= "var tag='#{generate_template(project_form, :tags)}'" %>
+  <%= content_for :jstemplates do -%>
+  <%=raw "var task='#{generate_template(project_form, :tasks)}'" %>
+  <%=raw "var tag='#{generate_template(project_form, :tags)}'" %>
 <% end -%>
 
 
