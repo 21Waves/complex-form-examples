@@ -7,7 +7,7 @@
     
     <%= f.label :raise_exception, "Raise exception:" %>
     <%= f.check_box :raise_exception %>        
-    <%= remove_link_unless_new_record(f) -%>
+    <%= remove_link_unless_new_record(f).html_safe -%>
   </p>
   
   <div class="colors">
